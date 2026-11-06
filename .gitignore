@@ -1,0 +1,15 @@
+# Build output (command line and CLion)
+build/
+cmake-build-*/
+
+# IDE files
+.idea/
+
+# Test ROMs: download them yourself, never commit them.
+# "roms/*" ignores the folder's contents but not the folder itself,
+# so the .gitkeep placeholder can still be committed.
+roms/*
+!roms/.gitkeep
+
+# macOS
+.DS_Store
